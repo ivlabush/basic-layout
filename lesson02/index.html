@@ -143,7 +143,7 @@
         <li><b>А вот пример пустого элемента: &lt;br/&gt;</b></li>
     </ul>
     <p>Регистр, в котором набрано имя элемента и имена атрибутов, в HTML значения не имеет (в отличие от XHTML). Элементы могут быть вложенными. Например, следующий код: </p>
-    <p>&lt;!DOCTYPE html&gt;
+    <pre>    &lt;!DOCTYPE html&gt;
         &lt;html&gt;
         &lt;head&gt;
             &lt;meta charset="utf-8" /&gt;
@@ -157,7 +157,7 @@
         &lt;/p&gt;
         &lt;/body&gt;
     &lt;/html&gt;
-    </p>
+    </pre>
     <p>даст такой результат: </p>
     <p><b>Этот текст будет полужирным, <i>а этот — ещё и курсивным.</i></b></p>
     <p>Кроме элементов, в HTML-документах есть и сущности (<a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA">англ.</a> entities) —
@@ -173,9 +173,9 @@
     <p><i>Подробнее по этой теме см. <a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_HTML">Элементы HTML</a>.</i></p>
     <p><i>Подробнее по этой теме см. <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8B">Википедия:Специальные символы</a>.</i></p>
     <p>Каждый HTML-документ, отвечающий спецификации HTML какой-либо версии, должен начинаться со строки объявления версии HTML &lt;!DOCTYPE…&gt;, которая обычно выглядит примерно так: </p>
-    <p> &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    <pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
         "http://www.w3.org/TR/html4/strict.dtd"&gt;
-    </p>
+    </pre>
     <p>Если эта строка не указана, то добиться корректного отображения документа в браузере становится труднее. </p>
     <p>Далее обозначается начало и конец документа тегами &lt;html&gt; и &lt;/html&gt; соответственно. Внутри этих тегов должны находиться теги заголовка (&lt;head&gt;&lt;/head&gt;) и тела (&lt;body&gt;&lt;/body&gt;) документа. </p>
 
