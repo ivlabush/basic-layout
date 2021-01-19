@@ -1,0 +1,138 @@
+.box-decoration-break {
+    box-decoration-break: clone;
+}
+
+.caret-color {
+    caret-color: darkred;
+}
+
+.direction {
+    direction: rtl;
+}
+
+.font {
+    font: bolder italic 20px fantasy;
+}
+
+.font-family {
+    font-family: monospace;
+}
+
+.font-kerning {
+    font-kerning: normal;
+}
+
+.font-size {
+    font-size: 0.5rem;
+}
+
+.font-stretch {
+    font-stretch: extra-condensed;
+}
+
+.font-style {
+    font-style: oblique;
+}
+
+.font-variant {
+    font-variant: all-petite-caps;
+}
+
+.font-weight {
+    font-weight: bolder;
+}
+
+.hyphens {
+    hyphens: auto;
+    width: 50%;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.tab-size {
+    tab-size: 10;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-align-last {
+    text-align-last: center;
+}
+
+.text-decoration {
+    text-decoration: underline red;
+    /*text-decoration-color: red;*/
+    text-decoration-skip-ink: auto;
+    text-decoration-style: wavy;
+}
+
+.text-emphasis {
+    text-emphasis: triangle red;
+    /*text-emphasis-style: triangle;*/
+    /*text-emphasis-color: red;*/
+}
+
+.text-indent {
+    text-indent: 0.8rem;
+}
+
+.text-orientation {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-shadow {
+    text-shadow: green 1px 2px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.bidi {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.white-space {
+    white-space: nowrap;
+}
+
+.word-break {
+    width: 55%;
+    word-break: break-all;
+}
+
+.word-spacing {
+    word-spacing: 5rem;
+}
+
+.word-wrap {
+    width: 76%;
+    word-wrap: break-word;
+}
+
+.writing-mode {
+    writing-mode: vertical-lr;
+}

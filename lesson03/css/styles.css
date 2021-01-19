@@ -1,0 +1,52 @@
+/* weight 0.0.0.1 */
+body {
+    background-color: burlywood;
+    font-family: "DejaVu Sans", serif;
+}
+/* weight 0.1.0.0 */
+#head-title {
+    color: deeppink;
+}
+
+/* id has more priority to style */
+/* on same selector type priority taken by last selector*/
+/* weight 0.0.1.0 */
+.head-title {
+    color: brown;
+}
+
+/* weight 0.0.1.0 */
+.paragraph {
+    font-size: 20px;
+}
+
+/* weight 0.0.1.0 */
+.text-green {
+    color: green !important;
+}
+
+/*---------------------*/
+
+/* style priority for the last one added */
+/* important directive overrides all other styles */
+/* in case of multiple important directive styles calculates by weight of important styles */
+.text-green {
+    color: blue !important;
+}
+
+/* weight 0.0.1.2*/
+body h1.title {
+
+}
+
+li {
+    font-size: 20px;
+}
+
+.first-list li {
+    color: brown;
+}
+
+.second-list li {
+    color: blueviolet;
+}
