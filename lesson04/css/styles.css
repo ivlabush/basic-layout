@@ -1,0 +1,76 @@
+.block1 {
+    background-color: blueviolet;
+}
+
+.block2 {
+    background-color: brown;
+}
+
+.block3 {
+    background-color: deeppink;
+}
+
+.text1 {
+    background-color: aqua;
+}
+
+.text2 {
+    background-color: chocolate;
+}
+
+.text3 {
+    background-color: indigo;
+    /* size calculated by all size (content, padding, border) */
+    box-sizing: border-box;
+}
+
+.block {
+    /* only content size */
+    width: 250px;
+    height: 150px;
+
+    /*border-width: 5px;*/
+    /*border-color: black;*/
+    /*border-style: solid;*/
+
+    border: solid black 5px;
+    /* up right down left */
+    padding: 10px 30px 20px;
+
+    /*
+    padding: 10px - all sizes are the same
+     */
+
+    /*
+    padding: 10px 20 px - first up and down, second left and right
+     */
+
+    /*
+    padding: 10px 20px 30px - first up, second down, third sides
+     */
+
+    /* sibling margins could merge by browser */
+    margin: 20px;
+
+    /* default block */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text {
+    /* not applicable */
+    width: 250px;
+    height: 200px;
+
+    /* buggy */
+    border: solid black 5px;
+
+    /* more bugs */
+    padding: 10px 30px 20px;
+
+    /* margins between elements only */
+    margin: 20px;
+
+    /* default inline */
+    display: block;
+}

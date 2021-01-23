@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, Hel;
+    color: #2c2c2c;
+    background-color: #827e7e;
+}
+
+.container {
+    color: #fff;
+    width: 1060px;
+    padding: 40px 50px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-page {
+
+}
