@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -60,9 +62,10 @@
 
 .footer-parent {
     background-color: #f0f1f0;
-    padding-left: 43%;
-    padding-right: 43%;
+    /*padding-left: 43%;*/
+    /*padding-right: 43%;*/
     padding-bottom: 9%;
+    text-align: center;
 }
 
 .footer {
