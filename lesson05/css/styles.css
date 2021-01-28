@@ -59,6 +59,7 @@ a {
 .content {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .aside {
@@ -91,9 +92,20 @@ a {
 }
 
 .main-img {
+    border: 1px solid #c8c8c8;
+    margin-bottom: 40px;
+    text-align: center;
+}
 
+footer {
+    background-color: #e1e1e1;
+    padding: 15px 40px;
 }
 
 .footer-menu {
+    text-align: center;
+}
 
+.footer-menu a {
+    margin-right: 80px;
 }
