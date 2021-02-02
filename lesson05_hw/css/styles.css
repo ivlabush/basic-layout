@@ -5,19 +5,334 @@
 
 }
 
-.content {
+.title-content {
     width: 1600px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 224px;
 }
 
 .title-section {
+    background-image: url(../img/main_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.logo {
+    background-color: #E0B973;
+    border-radius: 0 0 40px 40px;
+    margin-left: 213px;
+    width: 256px;
+    height: 149px;
+}
+
+.logo-text {
+    padding: 44px 29px 45px 41px;
+}
+
+.logo-text p {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    color: #14274A;
+}
+
+.logo-text-luxury {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+}
+
+.logo-text-hotels {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.6em;
+    margin-left: 39px;
+    margin-right: 43px;
+}
+
+.nav-content {
+    margin-left: 612px;
+}
+
+.nav-content li {
+    display: inline;
+}
+
+.nav-content a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+}
+
+.naw-home {
+    padding-right: 91px;
+}
+
+.naw-facilities {
+    padding-right: 97px;
+}
+
+.naw-rooms {
+    padding-right: 88px;
+}
+
+.nav-content a:hover,
+.nav-content a.selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text {
+    margin-left: 213px;
+    margin-top: 110px;
+}
+
+.text p {
+    color: #fff;
+}
+
+.text-welcome {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.text-luxury {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 154px;
+    line-height: 185px;
+    letter-spacing: 0.07em;
+}
+
+.text-hotels {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.4em;
+}
+
+.text-book {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.button {
+    background: #E0B973;
+    border-radius: 1px;
+    margin-top: 108px;
+    margin-left: 826px;
+    width: 268px;
+}
+
+.button img {
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.button p {
+    display:inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 18px;
+    margin-top: 22px;
 }
 
 .main-section {
 
 }
+
+.main-content p {
+    color: #14274A;
+}
+
+.main-title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 82px;
+}
+
+.main-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.img-gym {
+    margin-left: 173px;
+}
+
+.img-poolside-bar {
+    margin-left: 173px;
+}
+
+.gym {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: -75px;
+    background-color: #fff;
+    width: 684px;
+    height: 75px;
+    margin-left: 621px;
+    margin-bottom: 186px;
+}
+
+.poolside-bar {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: -75px;
+    background-color: #fff;
+    width: 684px;
+    height: 75px;
+    margin-left: 621px;
+    margin-bottom: 186px;
+}
+
+.swimming-pool {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: -75px;
+    background-color: #fff;
+    width: 684px;
+    height: 75px;
+    margin-left: 621px;
+    margin-bottom: 186px;
+}
+
+.second-title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-left: 662px;
+}
+
+.second-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin-left: 380px;
+    margin-bottom: 180px;
+}
+
+.room-img {
+    background: #FFFFFF;
+    border: 2px solid #14274A;
+    box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
+    margin-left: 175px;
+    margin-bottom: 181px;
+    width: 1578px;
+}
+
+.img-footer {
+    background-color: #14274A;
+    width: 1575px;
+    height: 141px;
+    margin-top: -4px;
+}
+
+.img-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #FFFFFF;
+}
+
+.img-button {
+    background: #E0B973;
+    border-radius: 1px;
+    width: 319px;
+    height: 78px;
+    margin-left: 338px;
+    margin-top: 80px;
+    margin-bottom: 77px;
+}
+
+.img-button-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 43px;
+    padding-top: 24px;
+}
+
+.second-title {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.second-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.third-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+
 
 .footer-section {
     background-color: #14274a;
