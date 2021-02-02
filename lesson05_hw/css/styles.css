@@ -96,11 +96,11 @@
 
 .text p {
     color: #fff;
+    font-style: normal;
 }
 
 .text-welcome {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 61px;
@@ -108,7 +108,6 @@
 
 .text-luxury {
     font-family: Adobe Garamond Pro;
-    font-style: normal;
     font-weight: bold;
     font-size: 154px;
     line-height: 185px;
@@ -117,7 +116,6 @@
 
 .text-hotels {
     font-family: Adobe Garamond Pro;
-    font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 72px;
@@ -126,7 +124,6 @@
 
 .text-book {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
@@ -139,11 +136,10 @@
     margin-top: 108px;
     margin-left: 826px;
     width: 268px;
-}
-
-.button img {
-    margin-left: 32px;
-    margin-top: 25px;
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .button p {
@@ -154,21 +150,26 @@
     font-size: 25px;
     line-height: 30px;
     color: #FFFFFF;
-    margin-left: 18px;
-    margin-top: 22px;
 }
 
 .main-section {
 
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .main-content p {
     color: #14274A;
+    font-style: normal;
 }
 
 .main-title {
     font-family: Adobe Garamond Pro;
-    font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 72px;
@@ -179,24 +180,15 @@
 
 .main-text {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-}
-
-.img-gym {
-    margin-left: 173px;
-}
-
-.img-poolside-bar {
-    margin-left: 173px;
+    margin-bottom: 82px;
 }
 
 .gym {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 59px;
@@ -205,13 +197,11 @@
     background-color: #fff;
     width: 684px;
     height: 75px;
-    margin-left: 621px;
     margin-bottom: 186px;
 }
 
 .poolside-bar {
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 59px;
@@ -220,7 +210,6 @@
     background-color: #fff;
     width: 684px;
     height: 75px;
-    margin-left: 621px;
     margin-bottom: 186px;
 }
 
@@ -235,7 +224,6 @@
     background-color: #fff;
     width: 684px;
     height: 75px;
-    margin-left: 621px;
     margin-bottom: 186px;
 }
 
@@ -247,7 +235,6 @@
     line-height: 72px;
     text-align: center;
     letter-spacing: 0.05em;
-    margin-left: 662px;
 }
 
 .second-text {
@@ -257,7 +244,6 @@
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    margin-left: 380px;
     margin-bottom: 180px;
 }
 
@@ -266,7 +252,6 @@
     border: 2px solid #14274A;
     box-sizing: border-box;
     border-radius: 0 0 15px 15px;
-    margin-left: 175px;
     margin-bottom: 181px;
     width: 1578px;
 }
@@ -309,7 +294,7 @@
     padding-top: 24px;
 }
 
-.second-title {
+.third-title {
     font-family: Adobe Garamond Pro;
     font-style: normal;
     font-weight: bold;
@@ -317,7 +302,7 @@
     line-height: 72px;
 }
 
-.second-text {
+.third-text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -325,15 +310,68 @@
     line-height: 37px;
 }
 
-.third-text {
+.fourth-text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
+    margin-bottom: 169px;
 }
-
 
 .footer-section {
     background-color: #14274a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #14274a;
+}
+
+.footer-content {
+    width: 1920px;
+}
+
+.footer-logo {
+    margin-left: 186px;
+    margin-top: 133px;
+}
+
+.footer-logo-luxury {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.footer-logo-hotels {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.6em;
+    padding-left: 24px;
+
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    margin-left: 186px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
 }
