@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Open Sans";
+}
+
+.button {
+	display: inline-block;
+	line-height: 1;
+	text-align: center;
+	padding: 15px 40px;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.container {
+	width: 1140px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.header {
+	/* height: 80px; */
+	background: rgba(0, 91, 193, 0.6);
+	padding: 11px 0;
+}
+
+.header-container {
+	padding: 0 40px;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-around; */
+}
+
+.header-menu {
+	display: flex;
+}
+
+.header-menu li {
+	margin: 0 14px;
+}
+
+.header-menu a {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1;
+	color: #FFFFFF;
+}
+
+.header-nav {
+	margin: 0 auto;
+	padding-right: 140px;
+}
+
+.title-block {
+	background-image: url(../img/main_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.title-block-content {
+	padding-top: 280px;
+	padding-bottom: 200px;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: space-around;*/
+}
+
+.title-block-button {
+	border: 2px solid #FFFFFF;
+}
+
+.title-block-title {
+	font-family: Oswald;
+	font-size: 48px;
+	line-height: 71px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.title-block-text {
+	font-size: 16px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.main-content {
+	padding-top: 155px;
+	padding-bottom: 120px;
+}
+
+.product {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.product-item {
+	width: 33.3333%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+}
+
+.product-content {
+	border: 3px solid #005BC1;
+	height: 300px;
+}
+
+.section2-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section2-text-block {
+	width: 350px;
+}
+
+.section2-slider {
+	width: 665px;
+
+	height: 394px; /* убрать после наполнения контентом */
+
+	border: 3px solid #005BC1;
+}
+
+.section3-button {
+	background: #005BC1;
+	border: 2px solid #005BC1;
+}
+
+.section3-title-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
