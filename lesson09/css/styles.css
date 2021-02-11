@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 1600px;
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+    margin: 100px;
+    border: 2px solid black;
+    position: relative; /* default element position is static */
+}
+
+.header {
+    /*height: 60px;*/
+    background-color: aqua;
+    /* block type size by content */
+    /* parent is browser window always */
+    position: fixed;
+    /* for fixed position had to specify top and left */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* doesn't work for position: static*/
+    z-index: 9999;
+}
+
+.red {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    /* right bottom replaced by top left with negative values*/
+}
+
+.green {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.cyan {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+
+    /* from parent position. parent is element with position except static */
+    /* if there's no parent position calculates against browser window */
+    /* element with absolute position is out of the scope of other elements so overlay other elements*/
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.commercial {
+    width: 500px;
+    height: 500px;
+    background-color: yellowgreen;
+    position: sticky;
+    /* needed position to stick */
+    top: 0;
+}
