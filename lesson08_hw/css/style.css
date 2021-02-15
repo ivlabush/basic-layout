@@ -1,3 +1,61 @@
+/* oswald-regular - latin */
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/oswald/oswald-v36-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+	url('../fonts/oswald/oswald-v36-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/oswald/oswald-v36-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/oswald/oswald-v36-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/oswald/oswald-v36-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/oswald/oswald-v36-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-300 - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/opensans/open-sans-v18-latin-300.eot'); /* IE9 Compat Modes */
+	src: local(''),
+	url('../fonts/opensans/open-sans-v18-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/opensans/open-sans-v18-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-300.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/opensans/open-sans-v18-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/opensans/open-sans-v18-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+	url('../fonts/opensans/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/opensans/open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/opensans/open-sans-v18-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-600 - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/opensans/open-sans-v18-latin-600.eot'); /* IE9 Compat Modes */
+	src: local(''),
+	url('../fonts/opensans/open-sans-v18-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/opensans/open-sans-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-600.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/opensans/open-sans-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/opensans/open-sans-v18-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+
 * {
 	box-sizing: border-box;
 }
@@ -12,7 +70,7 @@ body, html {
 }
 
 body {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 }
 
 .button {
@@ -90,7 +148,7 @@ body {
 }
 
 .title-block-title {
-	font-family: Oswald;
+	font-family: Oswald, sans-serif;
 	font-size: 48px;
 	line-height: 71px;
 	letter-spacing: 0.01em;
@@ -99,7 +157,7 @@ body {
 }
 
 .title-block-text {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #fff;
@@ -116,7 +174,7 @@ body {
 }
 
 .title {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 30px;
 	line-height: 44px;
 	letter-spacing: 0.05em;
@@ -135,6 +193,7 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 	width: 50%;
+	position: relative;
 }
 
 .project-item img {
@@ -150,13 +209,13 @@ body {
 	width: 250px;
 	height: 110px;
 	background-color: #fff;
-	position: relative;
-	top: -145px;
+	position: absolute;
+	top: 255px;
 	left: 255px;
 }
 
 .project-inner-text-bold {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0.05em;
@@ -167,7 +226,7 @@ body {
 }
 
 .project-inner-text {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 19px;
@@ -182,7 +241,7 @@ body {
 }
 
 .product-nav-list li:first-child {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 24px;
 	line-height: 36px;
 	letter-spacing: 0.05em;
@@ -192,7 +251,7 @@ body {
 }
 
 .product-nav-list li {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 24px;
 	line-height: 36px;
 	letter-spacing: 0.05em;
@@ -242,7 +301,7 @@ body {
 .product-text span {
 	margin: auto;
 	padding: 15px 36px 15px 21px;
-	ont-family: Oswald;
+	font-family: Oswald, sans-serif;
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0.05em;
@@ -259,7 +318,7 @@ body {
 
 .section2-text-block {
 	width: 350px;
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 25px;
@@ -283,7 +342,7 @@ body {
 }
 
 .section-mixed-title {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0.05em;
@@ -292,7 +351,7 @@ body {
 }
 
 .section-mixed-lower-text-upper {
-	font-family: "Oswald";
+	font-family: Oswald, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.05em;
@@ -302,12 +361,13 @@ body {
 }
 
 .section-mixed-lower-list li {
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 19px;
 	color: #343434;
 	padding-bottom: 35px;
+	list-style: disc;
 }
 
 .section2-mixed-lower {
@@ -392,7 +452,7 @@ body {
 
 .section3-item-top-left {
 	margin-right: 60px;
-	font-family: Oswald;
+	font-family: Oswald, sans-serif;
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0.05em;
@@ -401,7 +461,7 @@ body {
 }
 
 .section3-item-font {
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 }
 
@@ -430,7 +490,7 @@ body {
 }
 
 .section3-item-top-left-other {
-	font-family: Oswald;
+	font-family: Oswald, sans-serif;
 	font-size: 18px;
 	line-height: 27px;
 	letter-spacing: 0.05em;
@@ -452,3 +512,82 @@ body {
 	align-items: flex-end;
 }
 
+.footer {
+	width: 1920px;
+	background: #005BC1;
+	padding: 36px 405px 25px 405px;
+}
+
+.upper-footer {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 25px;
+}
+
+.phone-number {
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.address {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.email {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+.middle-footer {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 29px;
+}
+
+.lower-footer {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.middle-footer a {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-right: 110px;
+}
+
+.copyright {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.author {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: right;
+	color: #FFFFFF;
+}
