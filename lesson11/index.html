@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 11</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <form method="get" action="">
+        <div>
+            <input type="text" name="text" placeholder="Placeholder">
+        </div>
+        <div>
+            <input type="password" name="password" value="default password value">
+        </div>
+        <div>
+            <input type="email" name="email" value="my@my.com">
+        </div>
+
+        <!-- HTML5       -->
+        <!-- Grouping       -->
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+            <!-- input can be NOT near by label. binding by id  -->
+            <label for="checkbox1">Checkbox1</label>
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+            <label for="checkbox2">Checkbox2</label>
+            <input type="checkbox" name="checkbox3" id="checkbox3">
+            <label for="checkbox3">Checkbox3</label>
+            <input type="checkbox" name="checkbox4" id="checkbox4">
+            <label for="checkbox4">Checkbox4</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Radio button</legend>
+
+            <!-- same name binds radio buttons together    -->
+            <!-- input can be inside label and they binds together    -->
+            <label>
+                <input type="radio" name="radio" id="radio1">
+                Radio1
+            </label>
+            <input type="radio" name="radio" id="radio2">
+            <label for="radio2">Radio2</label>
+            <input type="radio" name="radio" id="radio3">
+            <label for="radio3">Radio3</label>
+            <input type="radio" name="radio" id="radio4">
+            <label for="radio4">Radio4</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <textarea name="" id="" cols="30" rows="10">Sample text</textarea>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <!-- old button variant     -->
+            <input type="button" value="Button Text">
+            <!-- new button variant     -->
+            <button>
+                New Variant Button Text
+            </button>
+
+            <button class="no-text-button"></button>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+
+        <br>
+        
+        <fieldset>
+            <select name="list" id="list">
+                <optgroup label="label1">
+                    <option value="value1">Value1</option>
+                    <option value="value2">Value2</option>
+                    <option value="value3">Value3</option>
+                </optgroup>
+                <optgroup label="label2">
+                    <option value="value4">Value4</option>
+                    <option value="value5">Value5</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+    </form>
+</body>
+</html>
