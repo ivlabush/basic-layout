@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    background-color: #f1f1f1;
+    width: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mailbox-name,
+#password,
+#second-password,
+#sender-name,
+#reserve-email,
+#mobile {
+    width: 300px;
+}
+
+#mailbox-name::placeholder {
+    color: #CACED3;
+    text-align: right;
+}
+
+#name, #surname {
+    width: 145px;
+}
+
+#name::placeholder, #surname::placeholder {
+    color: #CACED3;
+}
+
+#day, #year {
+    width: 80px;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.footer span {
+    color: #959CA5;
+    font-size: 12px;
+    padding-bottom: 25px;
+    /*max-width: 790px;*/
+}
+
+input:focus {
+    background-color: #FFFCDF;
+}
+
+.disclaimer {
+    padding-top: 20px;
+    text-align: right;
+    color: rgb(140, 148, 158);
+    font-style: italic;
+    font-size: 11px;
+}
+
+.name-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activate {
+    font-size: 14px;
+}
+
+.sms {
+    font-size: 12px;
+    max-width: 300px;
+}
+
+.code {
+    font-size: 16px;
+    color: #CACED3;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.import,
+.personal-data {
+    max-width: 300px;
+    font-size: 12px;
+}
+
+button {
+    background-color: #C0D59A;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+

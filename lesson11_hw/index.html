@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 11 Home Work</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <form action="post" class="form">
+        <span class="disclaimer">* Усі поля повинні містити коректні дані</span>
+
+        <section>
+            <label for="mailbox-name"><b>Придумайте ім'я поштової скриньки</b></label>
+            <div>
+                <input type="text" name="" id="mailbox-name" placeholder="@ukr.net">
+            </div>
+        </section>
+        <section>
+            <label for="password"><b>Придумайте пароль</b></label>
+            <div>
+                <input type="password" name="" id="password">
+            </div>
+        </section>
+        <section>
+            <label for="second-password"><b>Введіть пароль повторно</b></label>
+            <div>
+                <input type="password" name="" id="second-password">
+            </div>
+        </section>
+        <section>
+            <label>
+                <b>Як вас звати?</b>
+                <div class="name-input">
+                    <input type="text" name="" id="name" placeholder="Ім'я">
+                    <input type="text" name="" id="surname" placeholder="Прізвище">
+                </div>
+            </label>
+        </section>
+        <section>
+            <label>
+                <b>Дата народження</b>
+                <div>
+                    <input type="text" name="" id="day">
+                    <select name="" id="month">
+                        <option value="01">січня</option>
+                        <option value="02">лютого</option>
+                        <option value="03">березня</option>
+                        <option value="04">квітня</option>
+                        <option value="05">травня</option>
+                        <option value="06">червня</option>
+                        <option value="07">липня</option>
+                        <option value="08">серпня</option>
+                        <option value="09">вересня</option>
+                        <option value="10">жовтня</option>
+                        <option value="11">листопада</option>
+                        <option value="12">грудня</option>
+                    </select>
+                    <input type="text" name="" id="year">
+                </div>
+            </label>
+        </section>
+        <section>
+            <input type="radio" id="radio-men" name="radio-button">
+            <label for="radio-men">Чоловік</label>
+            <input type="radio" id="radio-women" name="radio-button">
+            <label for="radio-women">Жінка</label>
+        </section>
+        <section>
+            <label for="sender-name"><b>Ім'я відправника</b></label>
+            <div>
+                <input type="text" name="" id="sender-name">
+            </div>
+        </section>
+        <section>
+            <label for="reserve-email"><b>Резервний e-mail</b></label>
+            <div>
+                <input type="text" name="" id="reserve-email">
+            </div>
+        </section>
+        <section>
+            <label for="mobile"><b>Мобільний телефон</b></label>
+            <div>
+                <input type="text" name="" id="mobile">
+            </div>
+        </section>
+        <section class="info">
+            <span class="activate"><b>Поштову скриньку необхідно активувати</b></span>
+            <span class="sms">На вказаний номер мобільного телефону буде відправлено SMS з кодом активації</span>
+            <span class="code">ОТРИМАТИ КОД</span>
+        </section>
+        <section class="terms">
+            <div class="import">
+                <input type="checkbox" name="" id="import">
+                <label for="import"><b>Розпочати імпорт пошти з інших поштових сервісів</b></label>
+            </div>
+            <div class="personal-data">
+                <input type="checkbox" name="" id="personal-data">
+                <label for="personal-data">Я надаю згоду наs обробку персональних даних відповідно до <a
+                        href="https://www.ukr.net/terms/">Угоди про конфіденційність</a> і приймаю її умови.</label>
+            </div>
+        </section>
+        <footer class="footer">
+            <span>Натискаючи на кнопку «Зареєструвати скриньку», я приймаю умови <a
+                    href="https://mail.ukr.net/terms_uk.html">Угоди про використання електронної пошти FREEMAIL (mail.ukr.net)</a>.</span>
+            <button type="submit">Зареєструвати скриньку</button>
+        </footer>
+    </form>
+</div>
+</body>
+</html>
