@@ -351,11 +351,11 @@ body {
     list-style: disc;
 }
 
-.section2-mixed-lower {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/*.section2-mixed-lower {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
 
 .section2-mixed-lower-img {
     width: 255px;

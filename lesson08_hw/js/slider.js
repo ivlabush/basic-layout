@@ -4,9 +4,7 @@ $(document).ready(function () {
         slidesToScroll: 1
     })
 
-    $('.section2-mixed-lower').slick({
-
-    })
+    $('.section2-mixed-lower').slick()
 
     $('.modal-open').on("click", function () {
         $('.modal').fadeIn()
