@@ -6,6 +6,8 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -42,9 +44,9 @@
                 Продажа, аренда светотехнического оборудования.<br>
                 Оформление официальных мероприятий под ключ.
             </div>
-            <a href="" class="button title-block-button">
-                ПЕРЕЙТИ
-            </a>
+            <div class="button title-block-button modal-open">
+                РЕГИСТРАЦИЯ
+            </div>
 
         </div>
     </div>
@@ -54,23 +56,49 @@
     <div class="container">
         <div class="main-content">
 
-            <section class="section section0" id="our-projects">
+            <section class="section slider-section">
                 <h2 class="title">
                     Наши проекты
                 </h2>
-                <div class="project">
-                    <div class="project-item">
-                        <img src="img/project-item1.png" alt="Project Item">
-                        <div class="project-text">
-                            <div class="project-inner-text-bold">ССК “ОЛИМП”</div>
-                            <div class="project-inner-text">Световое оформление форума “Шубы-2019”</div>
+                <div class="main-slider">
+                    <!-- for plugin  -->
+                    <div>
+                        <div class="main-slide">
+                            <img src="img/project-item1.png" alt="Project Item">
+                            <div class="main-slide-text">
+                                <h3>ССК “ОЛИМП”</h3>
+                                <p>Световое оформление форума “Шубы-2019”</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="project-item">
-                        <img src="img/project-item-2.png" alt="Project Item">
-                        <div class="project-text">
-                            <div class="project-inner-text-bold">ССК “ОЛИМП”</div>
-                            <div class="project-inner-text">Световое оформление форума “Шубы-2019”</div>
+
+                    <div>
+                        <div class="main-slide">
+                            <img src="img/project-item-2.png" alt="Project Item">
+                            <div class="main-slide-text">
+                                <h3>ССК “ОЛИМП”</h3>
+                                <p>Световое оформление форума “Шубы-2019”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="main-slide">
+                            <img src="img/project-item1.png" alt="Project Item">
+                            <div class="main-slide-text">
+                                <h3>ССК “ОЛИМП”</h3>
+                                <p>Световое оформление форума “Шубы-2019”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="main-slide">
+                            <img src="img/project-item-2.png" alt="Project Item">
+                            <div class="main-slide-text">
+                                <h3>ССК “ОЛИМП”</h3>
+                                <p>Световое оформление форума “Шубы-2019”</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,24 +160,43 @@
                             <div class="section-mixed-title">
                                 Новое оборудование, предоставляемое в аренду:
                             </div>
-                            <div class="slider"></div>
                         </div>
 
                         <div class="section2-mixed-lower">
-                            <div class="section2-mixed-lower-img">
-                                <img src="img/section2-mixed-image.png" alt="New Equipment Sample">
-                            </div>
-                            <div class="section-mixed-lower-text">
-                                <div class="section-mixed-lower-text-upper">
-                                    Robe Robin ParFect 100
+                            <div>
+                                <div class="section2-mixed-lower-img">
+                                    <img src="img/section2-mixed-image.png" alt="New Equipment Sample">
                                 </div>
-                                <ul class="section-mixed-lower-list">
-                                    <li>Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
-                                    <li>Угол раскрытия 7°</li>
-                                    <li>В комплекте рассеивающая линза 40°</li>
-                                    <li>Потребляемая мощность 200 Вт</li>
-                                </ul>
+                                <div class="section-mixed-lower-text">
+                                    <div class="section-mixed-lower-text-upper">
+                                        Robe Robin ParFect 100
+                                    </div>
+                                    <ul class="section-mixed-lower-list">
+                                        <li>Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
+                                        <li>Угол раскрытия 7°</li>
+                                        <li>В комплекте рассеивающая линза 40°</li>
+                                        <li>Потребляемая мощность 200 Вт</li>
+                                    </ul>
+                                </div>
                             </div>
+
+                            <div>
+                                <div class="section2-mixed-lower-img">
+                                    <img src="img/section2-mixed-image2.png" alt="New Equipment Sample">
+                                </div>
+                                <div class="section-mixed-lower-text">
+                                    <div class="section-mixed-lower-text-upper">
+                                        Robe Robin ParFect 200
+                                    </div>
+                                    <ul class="section-mixed-lower-list">
+                                        <li>Источник света 12 светодиодов RGBW по 25 Вт каждый</li>
+                                        <li>Угол раскрытия 7°</li>
+                                        <li>В комплекте рассеивающая линза 60°</li>
+                                        <li>Потребляемая мощность 300 Вт</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -227,6 +274,20 @@
     </div>
 </main>
 
+<div class="modal">
+    <div class="modal-container">
+        <div class="modal-content">
+            <div class="modal-close">&times;</div>
+            <form class="modal-form" method="post">
+                <p><b>Введіть дані для реєстрації</b></p>
+                <input type="text" name="email-phone" placeholder="Email або телефонний номер">
+                <input type="password" name="password" placeholder="Пароль">
+                <button type="submit">Зареєструватися</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="upper-footer">
         <div class="phone-number">(812) 710-80-25</div>
@@ -249,5 +310,8 @@
     </div>
 </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>
