@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    height: 200px;
+    flex: 0 0 auto;
+}
+
+.block1 {
+    background-color: blue;
+}
+
+.block2 {
+    background-color: green;
+}
+
+.block3 {
+    background-color: magenta;
+}
+
+/* fixed */
+.container1 {
+    width: 600px;
+}
+
+.container1 .block {
+    width: 280px;
+}
+
+/* stretch */
+
+.container2 {
+    width: 80%;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+.container2 .block {
+    width: 50%;
+}
+
+/* adaptive */
+
+.container3 {
+    width: 1000px;
+}
+
+.container3 .block {
+    width: 480px;
+}
+
+/* responsive */
+
+.container4 {
+    width: 80%;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+.container4 .block {
+    width: 50%;
+}
+
+/* flex */
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+}
+
+.block {
+    flex-basis: 300px;
+    width: 200px;
+}
+
+.container5 .block1 {
+    flex-grow: 0; /* default */
+    flex-shrink: 1; /* important for images */
+}
+
+.container5 .block2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.container5 .block3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+/* font size */
+
+.text-block {
+    font-size: 1rem; /* percent from HTML tag*/
+    height: 100vh; /* viewport. 100% from browser height */
+    width: 100vw; /* viewport. 100% from browser width */
+}
+
+.text-block h3 {
+    font-size: 2em; /* percent from parent */
+}
+
+.text-block span {
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    /* adaptive */
+    .container3 {
+        /*width: 482px;*/
+        display: block;
+        flex-direction: column;
+    }
+
+    .container3 .block1 {
+        background-color: yellow;
+    }
+
+    .container3 .block2 {
+        background-color: cyan;
+    }
+
+    /* responsive */
+
+    .container4 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container4 .block {
+        width: 100%;
+    }
+
+    /* fonts */
+    html {
+        font-size: 20px;
+    }
+}
+
+
