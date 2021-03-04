@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.block {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    transition: transform 0.5s;
+}
+
+.block1 {
+
+}
+
+.block2 {
+
+}
+
+.block1:hover {
+    transform: translateX(50px);
+}
+
+.block2:hover {
+    /* percent from element not parent! */
+    transform: translate(50%, 50%);
+}
+
+.block3:hover {
+    /* scale from element! */
+    transform: scale(1.5);
+}
+
+.block4:hover {
+    transform: rotate(26deg);
+    /* Point of transformation is center of element. Counter from top-left corner */
+    transform-origin: 0 0;
+}
+
+.block5:hover {
+    transform: skewY(37deg);
+}

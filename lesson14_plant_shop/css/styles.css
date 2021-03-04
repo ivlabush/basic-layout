@@ -32,7 +32,21 @@ body {
 }
 
 .header {
-    display: none;
+    /*display: none;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px;
+    transform: translate(-100%);
+    transition: 0.5s;
+}
+
+.header.open {
+    transform: translate(0, 0);
 }
 
 .title-section {
@@ -110,12 +124,14 @@ body {
     position: relative;
     filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.15));
     border-radius: 20px;
+    /* picture do not moves outside border. often uses with transformation */
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .card__img {
@@ -124,6 +140,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    transition: transform 0.5s;
+    /*transform: translate(0 100%);*/
 }
 
 .card__title {
@@ -132,6 +150,30 @@ body {
 
 .card__text {
     position: relative;
+}
+
+.card:hover .card__img {
+    transform: scale(1.2);
+    /*transform: translate(0, 0);*/
+}
+
+.promo span {
+    font-size: 40px;
+    margin: 0 50px;
+    flex-shrink: 0;
+}
+
+.promo {
+    display: flex;
+    overflow: hidden;
+}
+
+.promo__line {
+    display: flex;
+    animation-name: promo-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @media (min-width: 768px) {
@@ -151,6 +193,9 @@ body {
         left: 0;
         z-index: 100;
         width: 100%;
+        height: auto;
+        background-color: transparent;
+        padding: 0;
     }
 
     .header__content {
@@ -185,4 +230,15 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+@keyframes promo-anim {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+
 }
