@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: 0 20px;
+    background-color: #0ca0ce;
+    background-origin: content-box;
+}
+
+.col-d-12 {
+    width: 100%;
+}
+
+.col-d-6 {
+    width: 50%;
+}
+
+.col-d-3 {
+    width: 25%;
+}
+
+@media (max-width: 1000px) {
+    .col-m-12 {
+        width: 100%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+}
